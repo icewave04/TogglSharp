@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TogglSharp", "Toggl\TogglSharp.csproj", "{EFE85159-834C-40CD-BF63-8CD72592C99A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TogglSharpAPI", "TogglSharpAPI\TogglSharpAPI.csproj", "{F1F15F46-39F4-4E2B-944D-FB86B8BCBEAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFE85159-834C-40CD-BF63-8CD72592C99A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE85159-834C-40CD-BF63-8CD72592C99A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE85159-834C-40CD-BF63-8CD72592C99A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE85159-834C-40CD-BF63-8CD72592C99A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F15F46-39F4-4E2B-944D-FB86B8BCBEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F15F46-39F4-4E2B-944D-FB86B8BCBEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F15F46-39F4-4E2B-944D-FB86B8BCBEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F15F46-39F4-4E2B-944D-FB86B8BCBEAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {262FC130-D3BD-4A3C-B69D-E26DC9764CBB}
+	EndGlobalSection
+EndGlobal

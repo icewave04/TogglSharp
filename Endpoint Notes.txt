@@ -1,0 +1,80 @@
+**GET**
+
+The following endpoints have been implemented:
+    // Me
+        api/v9/me
+        api/v9/me/clients?since=
+        api/v9/me/projects?since=
+        api/v9/me/location?since=
+        api/v9/me/tags?since=
+        api/v9/me/workspaces?since=
+    // Workspaces
+        api/v9/workspaces/{id}/projects?actual_hours=true&active=true&sort_field=client_name&sort_order=desc&client_ids=&group_ids=&user_ids=&billable=both&page=1&force=false
+        api/v9/workspaces/{id}/dashboard/all_activity
+        api/v9/workspaces/{id}/dashboard/top_activity
+        api/v9/workspaces
+        api/v9/workspaces/{id}
+        api/v9/workspaces/{id}/tags
+        api/v9/workspaces/{id}/tasks
+        api/v9/workspaces/{id}/workspace_users
+
+
+
+The following endpoints have NOT been implemented:
+        
+The following endpoints found in v8 were not found in v9:
+    // Workspaces
+        api/v9/workspaces/{id}/groups
+        api/v9/workspaces/{id}/clients
+
+**POST**
+https://toggl.com/api/v9/time_entries
+    at: "2018-11-17T09:07:01.995Z"
+    billable: false
+    created_with: "Snowball"
+    description: ""
+    duration: -1542445622
+    pid: null
+    start: "2018-11-17T09:07:01.995Z"
+    stop: null
+    tags: []
+    tid: null
+    wid: {id}
+
+    at: "2018-11-17T09:09:17.560Z"
+    billable: false
+    created_with: "Snowball"
+    description: "Test"
+    duration: -1542445758
+    pid: {id}
+    start: "2018-11-17T09:09:17.560Z"
+    stop: null
+    tags: ["Taggin'"]
+    tid: null
+    wid: {id}
+
+
+https://toggl.com/api/v8/clients
+    client: {name: "New Client", wid: 3062906}
+        name: "New Client"
+        wid: 3062906
+
+
+**PUT**
+https://toggl.com/api/v9/time_entries/{id}
+    at: "2018-11-17T09:09:14.038394Z"
+    billable: false
+    description: "Test"
+    duration: 237
+    duronly: false
+    id: 1030524547
+    pid: 147553521
+    start: "2018-11-17T09:09:17Z"
+    stop: "2018-11-17T09:13:14.000Z"
+    tags: ["Taggin'"]
+    tid: null
+    wid: 3062906
+
+https://toggl.com/api/v8/clients/{id}
+    client: {name: "Edited Client"}
+        name: "Edited Client"
